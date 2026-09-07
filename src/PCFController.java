@@ -42,7 +42,7 @@ public class PCFController {
                 "Anzahl Produkte: " + model.zaehleProdukte() + "\n\n" +
                 "Gesamter Product Carbon Footprint: " +
                 String.format("%.2f kg CO2e\n", gesamt) +
-                "Durchschnittlicher Product Carbon Footprint: " +
+                "Gesamter Product Carbon Footprint: " +
                 String.format("%.2f t CO2e", gesamt / 1000);
 
         view.zeigeTextseite("Gesamt PCF", text);
